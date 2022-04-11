@@ -11,6 +11,10 @@
 		AC38D99028001FF600DEEC32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D98F28001FF600DEEC32 /* ContentView.swift */; };
 		AC38D99228001FF800DEEC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC38D99128001FF800DEEC32 /* Assets.xcassets */; };
 		AC38D99528001FF800DEEC32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC38D99428001FF800DEEC32 /* Preview Assets.xcassets */; };
+		AC38D99C2800203200DEEC32 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D99B2800203200DEEC32 /* Models.swift */; };
+		AC38D9A0280030A400DEEC32 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D99F280030A400DEEC32 /* NewPostView.swift */; };
+		AC38D9A2280036DA00DEEC32 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D9A1280036DA00DEEC32 /* DetailView.swift */; };
+		ACBC4BC728041D7E0079032C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC4BC628041D7E0079032C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		AC38D98F28001FF600DEEC32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC38D99128001FF800DEEC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC38D99428001FF800DEEC32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC38D99B2800203200DEEC32 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AC38D99F280030A400DEEC32 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		AC38D9A1280036DA00DEEC32 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AC38D9A328003CCA00DEEC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ACBC4BC628041D7E0079032C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		AC38D98C28001FF600DEEC32 /* CrudIosApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC38D9A328003CCA00DEEC32 /* Info.plist */,
 				AC38D98D28001FF600DEEC32 /* CrudIosAppApp.swift */,
 				AC38D98F28001FF600DEEC32 /* ContentView.swift */,
+				ACBC4BC628041D7E0079032C /* ViewModel.swift */,
+				AC38D9A1280036DA00DEEC32 /* DetailView.swift */,
+				AC38D99F280030A400DEEC32 /* NewPostView.swift */,
+				AC38D99B2800203200DEEC32 /* Models.swift */,
 				AC38D99128001FF800DEEC32 /* Assets.xcassets */,
 				AC38D99328001FF800DEEC32 /* Preview Content */,
 			);
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC38D99C2800203200DEEC32 /* Models.swift in Sources */,
+				AC38D9A2280036DA00DEEC32 /* DetailView.swift in Sources */,
 				AC38D99028001FF600DEEC32 /* ContentView.swift in Sources */,
 				AC38D98E28001FF600DEEC32 /* CrudIosAppApp.swift in Sources */,
+				ACBC4BC728041D7E0079032C /* ViewModel.swift in Sources */,
+				AC38D9A0280030A400DEEC32 /* NewPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = LU893QGJWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrudIosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = LU893QGJWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrudIosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
